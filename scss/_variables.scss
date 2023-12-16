@@ -14,7 +14,7 @@ $gray-400: #ced4da !default;
 $gray-500: #adb5bd !default;
 $gray-600: #6c757d !default;
 $gray-700: #525252 !default;
-$gray-800: #343a40 !default;
+$gray-800: #333 !default;
 $gray-900: #282828 !default;
 $black:    #080808 !default;
 // scss-docs-end gray-color-variables
@@ -439,7 +439,7 @@ $body-color:                $white !default;
 $body-bg:                   $black !default;
 
 $body-secondary-color:      rgba($body-color, .75) !default;
-$body-secondary-bg:         $gray-700 !default;
+$body-secondary-bg:         $gray-800 !default;
 
 $body-tertiary-color:       rgba($body-color, .5) !default;
 $body-tertiary-bg:          $gray-900 !default;
@@ -1506,7 +1506,7 @@ $modal-dialog-margin-y-sm-up:       1.75rem !default;
 $modal-title-line-height:           $line-height-base !default;
 
 $modal-content-color:               null !default;
-$modal-content-bg:                  var(--#{$prefix}body-bg) !default;
+$modal-content-bg:                  var(--#{$prefix}tertiary-bg) !default;
 $modal-content-border-color:        var(--#{$prefix}border-color-translucent) !default;
 $modal-content-border-width:        var(--#{$prefix}border-width) !default;
 $modal-content-border-radius:       var(--#{$prefix}border-radius-lg) !default;
